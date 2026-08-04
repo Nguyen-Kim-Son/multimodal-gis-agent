@@ -1,0 +1,16 @@
+experiment:
+  name: mmgis_paper_claude_unique35
+  tasks: tasks/contextgeo_unique35
+  output_root: outputs/experiments
+  repeats: 1
+  cache: false
+  resume: true
+  run_id: paper_claude_unique35_v1
+
+models:
+  claude_sonnet4:
+    enabled: true
+    provider: openrouter
+    model: anthropic/claude-sonnet-4
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4

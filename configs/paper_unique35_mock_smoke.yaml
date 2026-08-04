@@ -1,0 +1,14 @@
+experiment:
+  name: paper_unique35_mock_smoke
+  tasks: tasks/contextgeo_unique35
+  output_root: outputs/experiments
+  repeats: 1
+  cache: false
+  resume: false
+  run_id: release_07_smoke
+
+models:
+  mock:
+    enabled: true
+    provider: mock
+    model: deterministic-mock

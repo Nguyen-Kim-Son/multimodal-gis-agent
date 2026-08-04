@@ -1,0 +1,33 @@
+experiment:
+  name: contextgeo_operation_pilot
+  tasks: tasks/contextgeo_pilot
+  output_root: outputs/experiments
+  repeats: 1
+  cache: false
+  resume: true
+  run_id: gpt_oss20b_contextgeo_pilot_v1
+
+models:
+  mock:
+    enabled: false
+    provider: mock
+    model: deterministic-mock
+
+  gpt_oss20b_free:
+    enabled: true
+    provider: openrouter
+    model: openai/gpt-oss-20b:free
+    base_url: https://openrouter.ai/api/v1
+
+  qwen_ollama:
+    enabled: false
+    provider: ollama
+    model: qwen2.5-coder:7b
+    base_url: http://localhost:11434
+
+  deepseek:
+    enabled: false
+    provider: deepseek
+    model: deepseek-chat
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY

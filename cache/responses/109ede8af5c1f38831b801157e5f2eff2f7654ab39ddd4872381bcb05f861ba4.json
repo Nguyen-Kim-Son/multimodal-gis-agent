@@ -1,0 +1,13 @@
+{
+  "text": "```javascript\nvar collection = ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED');\nprint(collection.size());\n```",
+  "model": "deterministic-mock",
+  "provider": "mock",
+  "latency_seconds": 2.243999972506572e-06,
+  "prompt_tokens": 15,
+  "completion_tokens": 7,
+  "total_tokens": 22,
+  "cost_usd": null,
+  "raw": {
+    "mock": true
+  }
+}

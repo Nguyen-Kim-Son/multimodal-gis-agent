@@ -1,0 +1,1922 @@
+[
+  {
+    "task_id": "simple_001",
+    "question": "How many restaurants are there in New York?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_002",
+    "question": "How many hospitals are there in Los Angeles?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_003",
+    "question": "How many schools are there in Chicago?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_004",
+    "question": "How many parks are there in Houston?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_005",
+    "question": "How many bus stops are there in Phoenix?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_006",
+    "question": "How many restaurants are there in New York?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_007",
+    "question": "How many hospitals are there in Los Angeles?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_008",
+    "question": "How many schools are there in Chicago?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_009",
+    "question": "How many parks are there in Houston?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_010",
+    "question": "How many bus stops are there in Phoenix?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_011",
+    "question": "How many restaurants are there in New York?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_012",
+    "question": "How many hospitals are there in Los Angeles?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_013",
+    "question": "How many schools are there in Chicago?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_014",
+    "question": "How many parks are there in Houston?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_015",
+    "question": "How many bus stops are there in Phoenix?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_016",
+    "question": "How many restaurants are there in New York?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_017",
+    "question": "How many hospitals are there in Los Angeles?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_018",
+    "question": "How many schools are there in Chicago?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_019",
+    "question": "How many parks are there in Houston?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_020",
+    "question": "How many bus stops are there in Phoenix?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_021",
+    "question": "How many restaurants are there in New York?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_022",
+    "question": "How many hospitals are there in Los Angeles?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_023",
+    "question": "How many schools are there in Chicago?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_024",
+    "question": "How many parks are there in Houston?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_025",
+    "question": "How many bus stops are there in Phoenix?",
+    "dataset": "osm",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_osm",
+      "filter",
+      "count"
+    ]
+  },
+  {
+    "task_id": "simple_026",
+    "question": "What is the total population in New York?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_027",
+    "question": "What is the median household income in Los Angeles?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_028",
+    "question": "What is the population density in Chicago?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_029",
+    "question": "What is the unemployment rate in Houston?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_030",
+    "question": "What is the poverty rate in Phoenix?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_031",
+    "question": "What is the total population in New York?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_032",
+    "question": "What is the median household income in Los Angeles?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_033",
+    "question": "What is the population density in Chicago?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_034",
+    "question": "What is the unemployment rate in Houston?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_035",
+    "question": "What is the poverty rate in Phoenix?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_036",
+    "question": "What is the total population in New York?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_037",
+    "question": "What is the median household income in Los Angeles?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_038",
+    "question": "What is the population density in Chicago?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_039",
+    "question": "What is the unemployment rate in Houston?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_040",
+    "question": "What is the poverty rate in Phoenix?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_041",
+    "question": "What is the total population in New York?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_042",
+    "question": "What is the median household income in Los Angeles?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_043",
+    "question": "What is the population density in Chicago?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_044",
+    "question": "What is the unemployment rate in Houston?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_045",
+    "question": "What is the poverty rate in Phoenix?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_046",
+    "question": "What is the total population in New York?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_047",
+    "question": "What is the median household income in Los Angeles?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_048",
+    "question": "What is the population density in Chicago?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_049",
+    "question": "What is the unemployment rate in Houston?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "simple_050",
+    "question": "What is the poverty rate in Phoenix?",
+    "dataset": "census",
+    "type": "spatial_query",
+    "difficulty": "easy",
+    "expected_operations": [
+      "load_census",
+      "aggregate",
+      "calculate"
+    ]
+  },
+  {
+    "task_id": "intermediate_001",
+    "question": "Find all restaurants within 500m of hospitals in New York and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_002",
+    "question": "Find all restaurants within 500m of hospitals in Los Angeles and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_003",
+    "question": "Find all restaurants within 500m of hospitals in Chicago and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_004",
+    "question": "Find all restaurants within 500m of hospitals in Houston and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_005",
+    "question": "Find all restaurants within 500m of hospitals in Phoenix and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_006",
+    "question": "Find all restaurants within 500m of hospitals in New York and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_007",
+    "question": "Find all restaurants within 500m of hospitals in Los Angeles and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_008",
+    "question": "Find all restaurants within 500m of hospitals in Chicago and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_009",
+    "question": "Find all restaurants within 500m of hospitals in Houston and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_010",
+    "question": "Find all restaurants within 500m of hospitals in Phoenix and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_011",
+    "question": "Find all restaurants within 500m of hospitals in New York and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_012",
+    "question": "Find all restaurants within 500m of hospitals in Los Angeles and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_013",
+    "question": "Find all restaurants within 500m of hospitals in Chicago and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_014",
+    "question": "Find all restaurants within 500m of hospitals in Houston and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_015",
+    "question": "Find all restaurants within 500m of hospitals in Phoenix and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_016",
+    "question": "Find all restaurants within 500m of hospitals in New York and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_017",
+    "question": "Find all restaurants within 500m of hospitals in Los Angeles and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_018",
+    "question": "Find all restaurants within 500m of hospitals in Chicago and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_019",
+    "question": "Find all restaurants within 500m of hospitals in Houston and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_020",
+    "question": "Find all restaurants within 500m of hospitals in Phoenix and calculate average distance.",
+    "dataset": "osm",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_osm",
+      "buffer",
+      "spatial_join",
+      "calculate_distance"
+    ]
+  },
+  {
+    "task_id": "intermediate_021",
+    "question": "Compare population density between census tracts in New York and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_022",
+    "question": "Compare population density between census tracts in Los Angeles and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_023",
+    "question": "Compare population density between census tracts in Chicago and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_024",
+    "question": "Compare population density between census tracts in Houston and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_025",
+    "question": "Compare population density between census tracts in Phoenix and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_026",
+    "question": "Compare population density between census tracts in New York and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_027",
+    "question": "Compare population density between census tracts in Los Angeles and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_028",
+    "question": "Compare population density between census tracts in Chicago and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_029",
+    "question": "Compare population density between census tracts in Houston and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_030",
+    "question": "Compare population density between census tracts in Phoenix and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_031",
+    "question": "Compare population density between census tracts in New York and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_032",
+    "question": "Compare population density between census tracts in Los Angeles and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_033",
+    "question": "Compare population density between census tracts in Chicago and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_034",
+    "question": "Compare population density between census tracts in Houston and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_035",
+    "question": "Compare population density between census tracts in Phoenix and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_036",
+    "question": "Compare population density between census tracts in New York and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_037",
+    "question": "Compare population density between census tracts in Los Angeles and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_038",
+    "question": "Compare population density between census tracts in Chicago and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_039",
+    "question": "Compare population density between census tracts in Houston and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_040",
+    "question": "Compare population density between census tracts in Phoenix and identify top 5 highest density areas.",
+    "dataset": "census",
+    "type": "spatial_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_census",
+      "calculate_density",
+      "sort",
+      "filter"
+    ]
+  },
+  {
+    "task_id": "intermediate_041",
+    "question": "Calculate NDVI for North America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_042",
+    "question": "Calculate NDVI for South America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_043",
+    "question": "Calculate NDVI for Europe region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_044",
+    "question": "Calculate NDVI for Africa region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_045",
+    "question": "Calculate NDVI for Asia region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_046",
+    "question": "Calculate NDVI for North America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_047",
+    "question": "Calculate NDVI for South America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_048",
+    "question": "Calculate NDVI for Europe region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_049",
+    "question": "Calculate NDVI for Africa region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_050",
+    "question": "Calculate NDVI for Asia region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_051",
+    "question": "Calculate NDVI for North America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_052",
+    "question": "Calculate NDVI for South America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_053",
+    "question": "Calculate NDVI for Europe region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_054",
+    "question": "Calculate NDVI for Africa region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_055",
+    "question": "Calculate NDVI for Asia region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_056",
+    "question": "Calculate NDVI for North America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_057",
+    "question": "Calculate NDVI for South America region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_058",
+    "question": "Calculate NDVI for Europe region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_059",
+    "question": "Calculate NDVI for Africa region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "intermediate_060",
+    "question": "Calculate NDVI for Asia region and identify areas with NDVI > 0.6.",
+    "dataset": "sentinel2",
+    "type": "raster_analysis",
+    "difficulty": "medium",
+    "expected_operations": [
+      "load_sentinel",
+      "calculate_ndvi",
+      "threshold",
+      "extract"
+    ]
+  },
+  {
+    "task_id": "complex_001",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for New York to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_002",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Los Angeles to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_003",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Chicago to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_004",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Houston to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_005",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Phoenix to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_006",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for New York to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_007",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Los Angeles to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_008",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Chicago to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_009",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Houston to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_010",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Phoenix to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_011",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for New York to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_012",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Los Angeles to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_013",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Chicago to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_014",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Houston to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_015",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Phoenix to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_016",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for New York to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_017",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Los Angeles to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_018",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Chicago to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_019",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Houston to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_020",
+    "question": "Integrate OSM, Census, and Sentinel-2 data for Phoenix to identify underserved areas (low hospital access + high population + low vegetation).",
+    "dataset": "multi",
+    "type": "data_integration",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "spatial_join",
+      "overlay_analysis",
+      "multi_criteria_evaluation"
+    ]
+  },
+  {
+    "task_id": "complex_021",
+    "question": "Analyze urban heat island effect in New York by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_022",
+    "question": "Analyze urban heat island effect in Los Angeles by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_023",
+    "question": "Analyze urban heat island effect in Chicago by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_024",
+    "question": "Analyze urban heat island effect in Houston by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_025",
+    "question": "Analyze urban heat island effect in Phoenix by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_026",
+    "question": "Analyze urban heat island effect in New York by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_027",
+    "question": "Analyze urban heat island effect in Los Angeles by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_028",
+    "question": "Analyze urban heat island effect in Chicago by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_029",
+    "question": "Analyze urban heat island effect in Houston by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_030",
+    "question": "Analyze urban heat island effect in Phoenix by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_031",
+    "question": "Analyze urban heat island effect in New York by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_032",
+    "question": "Analyze urban heat island effect in Los Angeles by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_033",
+    "question": "Analyze urban heat island effect in Chicago by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_034",
+    "question": "Analyze urban heat island effect in Houston by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_035",
+    "question": "Analyze urban heat island effect in Phoenix by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_036",
+    "question": "Analyze urban heat island effect in New York by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_037",
+    "question": "Analyze urban heat island effect in Los Angeles by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_038",
+    "question": "Analyze urban heat island effect in Chicago by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_039",
+    "question": "Analyze urban heat island effect in Houston by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  },
+  {
+    "task_id": "complex_040",
+    "question": "Analyze urban heat island effect in Phoenix by correlating Sentinel-2 temperature data with population density and vegetation coverage.",
+    "dataset": "multi",
+    "type": "spatial_reasoning",
+    "difficulty": "hard",
+    "expected_operations": [
+      "load_multiple",
+      "temporal_analysis",
+      "correlation",
+      "regression",
+      "visualization"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "text": "LANDSAT/LC08/C02/T1_L2",
+  "model": "deterministic-mock",
+  "provider": "mock",
+  "latency_seconds": 2.6839999804906256e-06,
+  "prompt_tokens": 8,
+  "completion_tokens": 1,
+  "total_tokens": 9,
+  "cost_usd": null,
+  "raw": {
+    "mock": true
+  }
+}

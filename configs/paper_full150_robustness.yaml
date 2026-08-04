@@ -1,0 +1,36 @@
+experiment:
+  name: mmgis_paper_full150_robustness
+  tasks: tasks/contextgeo150
+  output_root: outputs/experiments
+  repeats: 1
+  cache: false
+  resume: true
+  run_id: paper_full150_robustness_v1
+
+models:
+  gpt5_mini:
+    enabled: true
+    provider: openrouter
+    model: openai/gpt-5-mini
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+    reasoning:
+      effort: low
+      exclude: true
+
+  gemini25_flash:
+    enabled: true
+    provider: openrouter
+    model: google/gemini-2.5-flash
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+    reasoning:
+      effort: low
+      exclude: true
+
+  qwen3_coder:
+    enabled: true
+    provider: openrouter
+    model: qwen/qwen3-coder
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4

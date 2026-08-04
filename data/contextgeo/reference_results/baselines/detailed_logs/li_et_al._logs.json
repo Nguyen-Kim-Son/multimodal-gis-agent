@@ -1,0 +1,1059 @@
+{
+  "name": "Li et al.",
+  "tasks": [
+    {
+      "task_id": 1,
+      "completed": false,
+      "tokens": 18229,
+      "time": 244.20576374811833,
+      "spatial_accuracy": 0.5854390418338263
+    },
+    {
+      "task_id": 2,
+      "completed": false,
+      "tokens": 17014,
+      "time": 251.47575633366276,
+      "spatial_accuracy": 0.5673377801843419
+    },
+    {
+      "task_id": 3,
+      "completed": true,
+      "tokens": 18209,
+      "time": 269.2905178385475,
+      "spatial_accuracy": 0.5584273073448413
+    },
+    {
+      "task_id": 4,
+      "completed": true,
+      "tokens": 18226,
+      "time": 260.8158894164172,
+      "spatial_accuracy": 0.5145461197491765
+    },
+    {
+      "task_id": 5,
+      "completed": true,
+      "tokens": 17932,
+      "time": 230.55119664292917,
+      "spatial_accuracy": 0.5395564321665316
+    },
+    {
+      "task_id": 6,
+      "completed": false,
+      "tokens": 18549,
+      "time": 246.13027925941518,
+      "spatial_accuracy": 0.6382998749175739
+    },
+    {
+      "task_id": 7,
+      "completed": false,
+      "tokens": 19544,
+      "time": 238.44240664796484,
+      "spatial_accuracy": 0.4822884637166984
+    },
+    {
+      "task_id": 8,
+      "completed": true,
+      "tokens": 18183,
+      "time": 216.55322681229072,
+      "spatial_accuracy": 0.5548643159395622
+    },
+    {
+      "task_id": 9,
+      "completed": false,
+      "tokens": 19311,
+      "time": 260.1395214077676,
+      "spatial_accuracy": 0.5695813530213297
+    },
+    {
+      "task_id": 10,
+      "completed": true,
+      "tokens": 18175,
+      "time": 229.90853630271525,
+      "spatial_accuracy": 0.5780150440135916
+    },
+    {
+      "task_id": 11,
+      "completed": true,
+      "tokens": 18347,
+      "time": 259.51648077473305,
+      "spatial_accuracy": 0.6262374039972608
+    },
+    {
+      "task_id": 12,
+      "completed": false,
+      "tokens": 17112,
+      "time": 256.7747993044839,
+      "spatial_accuracy": 0.6431407399087592
+    },
+    {
+      "task_id": 13,
+      "completed": false,
+      "tokens": 18916,
+      "time": 279.65910706102346,
+      "spatial_accuracy": 0.5849521790677518
+    },
+    {
+      "task_id": 14,
+      "completed": false,
+      "tokens": 17647,
+      "time": 231.7401422589506,
+      "spatial_accuracy": 0.6785505284170603
+    },
+    {
+      "task_id": 15,
+      "completed": true,
+      "tokens": 18943,
+      "time": 277.9640924290296,
+      "spatial_accuracy": 0.6728538787214986
+    },
+    {
+      "task_id": 16,
+      "completed": false,
+      "tokens": 19135,
+      "time": 261.4173938072497,
+      "spatial_accuracy": 0.508114306246487
+    },
+    {
+      "task_id": 17,
+      "completed": true,
+      "tokens": 18270,
+      "time": 249.98164614261265,
+      "spatial_accuracy": 0.6282733394178348
+    },
+    {
+      "task_id": 18,
+      "completed": false,
+      "tokens": 17388,
+      "time": 237.23042243209602,
+      "spatial_accuracy": 0.5597850248431785
+    },
+    {
+      "task_id": 19,
+      "completed": true,
+      "tokens": 18297,
+      "time": 279.42464289788546,
+      "spatial_accuracy": 0.5012575601670857
+    },
+    {
+      "task_id": 20,
+      "completed": false,
+      "tokens": 17502,
+      "time": 235.51903961057016,
+      "spatial_accuracy": 0.6213305410713941
+    },
+    {
+      "task_id": 21,
+      "completed": false,
+      "tokens": 18422,
+      "time": 260.70849464591356,
+      "spatial_accuracy": 0.5431188334569474
+    },
+    {
+      "task_id": 22,
+      "completed": true,
+      "tokens": 17574,
+      "time": 251.87180044548495,
+      "spatial_accuracy": 0.5953370229384579
+    },
+    {
+      "task_id": 23,
+      "completed": false,
+      "tokens": 18829,
+      "time": 239.02698804929713,
+      "spatial_accuracy": 0.5669274281369416
+    },
+    {
+      "task_id": 24,
+      "completed": false,
+      "tokens": 18923,
+      "time": 278.3340568268651,
+      "spatial_accuracy": 0.5848539421607036
+    },
+    {
+      "task_id": 25,
+      "completed": false,
+      "tokens": 18473,
+      "time": 267.88977856044266,
+      "spatial_accuracy": 0.6415988494071914
+    },
+    {
+      "task_id": 26,
+      "completed": false,
+      "tokens": 18015,
+      "time": 239.48145942023766,
+      "spatial_accuracy": 0.5313431145807465
+    },
+    {
+      "task_id": 27,
+      "completed": true,
+      "tokens": 18884,
+      "time": 231.10984170380743,
+      "spatial_accuracy": 0.4880393910885418
+    },
+    {
+      "task_id": 28,
+      "completed": true,
+      "tokens": 18323,
+      "time": 252.28294569016523,
+      "spatial_accuracy": 0.6146897904472387
+    },
+    {
+      "task_id": 29,
+      "completed": false,
+      "tokens": 17791,
+      "time": 268.661433939804,
+      "spatial_accuracy": 0.6817010879267512
+    },
+    {
+      "task_id": 30,
+      "completed": false,
+      "tokens": 18120,
+      "time": 257.04393369048563,
+      "spatial_accuracy": 0.5291519015222134
+    },
+    {
+      "task_id": 31,
+      "completed": false,
+      "tokens": 17860,
+      "time": 246.0239462989188,
+      "spatial_accuracy": 0.6572690296386875
+    },
+    {
+      "task_id": 32,
+      "completed": false,
+      "tokens": 17627,
+      "time": 256.286842405623,
+      "spatial_accuracy": 0.6958931541619846
+    },
+    {
+      "task_id": 33,
+      "completed": true,
+      "tokens": 18480,
+      "time": 263.5904471131598,
+      "spatial_accuracy": 0.5189834198622953
+    },
+    {
+      "task_id": 34,
+      "completed": false,
+      "tokens": 18289,
+      "time": 249.25806142044047,
+      "spatial_accuracy": 0.5804199792957629
+    },
+    {
+      "task_id": 35,
+      "completed": false,
+      "tokens": 18812,
+      "time": 241.07410212982478,
+      "spatial_accuracy": 0.5707673860578263
+    },
+    {
+      "task_id": 36,
+      "completed": false,
+      "tokens": 19191,
+      "time": 273.6422577302392,
+      "spatial_accuracy": 0.6203560931560027
+    },
+    {
+      "task_id": 37,
+      "completed": true,
+      "tokens": 18309,
+      "time": 276.7506238015192,
+      "spatial_accuracy": 0.6337741267109487
+    },
+    {
+      "task_id": 38,
+      "completed": true,
+      "tokens": 18994,
+      "time": 232.92365712918192,
+      "spatial_accuracy": 0.5623664217357345
+    },
+    {
+      "task_id": 39,
+      "completed": true,
+      "tokens": 18098,
+      "time": 262.7617945484359,
+      "spatial_accuracy": 0.5319389499384702
+    },
+    {
+      "task_id": 40,
+      "completed": true,
+      "tokens": 18397,
+      "time": 249.84261917672015,
+      "spatial_accuracy": 0.6069054707114535
+    },
+    {
+      "task_id": 41,
+      "completed": true,
+      "tokens": 17979,
+      "time": 255.31092405526053,
+      "spatial_accuracy": 0.6373734025340576
+    },
+    {
+      "task_id": 42,
+      "completed": false,
+      "tokens": 18390,
+      "time": 274.7037060437144,
+      "spatial_accuracy": 0.5478556931620957
+    },
+    {
+      "task_id": 43,
+      "completed": false,
+      "tokens": 17854,
+      "time": 250.69854615631826,
+      "spatial_accuracy": 0.5972503072071154
+    },
+    {
+      "task_id": 44,
+      "completed": false,
+      "tokens": 18312,
+      "time": 239.10419664029922,
+      "spatial_accuracy": 0.5109857100160144
+    },
+    {
+      "task_id": 45,
+      "completed": true,
+      "tokens": 17607,
+      "time": 268.4195712070789,
+      "spatial_accuracy": 0.6262984660953681
+    },
+    {
+      "task_id": 46,
+      "completed": false,
+      "tokens": 18273,
+      "time": 259.4505390366604,
+      "spatial_accuracy": 0.640418075722443
+    },
+    {
+      "task_id": 47,
+      "completed": false,
+      "tokens": 18504,
+      "time": 259.49760203919675,
+      "spatial_accuracy": 0.5879174712272044
+    },
+    {
+      "task_id": 48,
+      "completed": false,
+      "tokens": 18137,
+      "time": 188.73414151277814,
+      "spatial_accuracy": 0.5659443567262883
+    },
+    {
+      "task_id": 49,
+      "completed": false,
+      "tokens": 17329,
+      "time": 247.84889173652383,
+      "spatial_accuracy": 0.611624364109395
+    },
+    {
+      "task_id": 50,
+      "completed": false,
+      "tokens": 17496,
+      "time": 245.9830232588973,
+      "spatial_accuracy": 0.48608277790974597
+    },
+    {
+      "task_id": 51,
+      "completed": true,
+      "tokens": 19322,
+      "time": 273.6572905332535,
+      "spatial_accuracy": 0.6050942036780379
+    },
+    {
+      "task_id": 52,
+      "completed": false,
+      "tokens": 18700,
+      "time": 226.22148852761993,
+      "spatial_accuracy": 0.5863867815138945
+    },
+    {
+      "task_id": 53,
+      "completed": true,
+      "tokens": 18211,
+      "time": 256.6803315839615,
+      "spatial_accuracy": 0.6479291066874894
+    },
+    {
+      "task_id": 54,
+      "completed": true,
+      "tokens": 17637,
+      "time": 219.91077596621386,
+      "spatial_accuracy": 0.5367260298167508
+    },
+    {
+      "task_id": 55,
+      "completed": false,
+      "tokens": 17927,
+      "time": 239.9672289247141,
+      "spatial_accuracy": 0.5249058072194638
+    },
+    {
+      "task_id": 56,
+      "completed": false,
+      "tokens": 18696,
+      "time": 223.51820069783994,
+      "spatial_accuracy": 0.6279162648044823
+    },
+    {
+      "task_id": 57,
+      "completed": false,
+      "tokens": 18629,
+      "time": 239.067219388109,
+      "spatial_accuracy": 0.5075041950780239
+    },
+    {
+      "task_id": 58,
+      "completed": false,
+      "tokens": 18898,
+      "time": 272.6706540219915,
+      "spatial_accuracy": 0.5976346120067466
+    },
+    {
+      "task_id": 59,
+      "completed": false,
+      "tokens": 18724,
+      "time": 219.9379730261948,
+      "spatial_accuracy": 0.662939724696697
+    },
+    {
+      "task_id": 60,
+      "completed": true,
+      "tokens": 18686,
+      "time": 233.50532803840997,
+      "spatial_accuracy": 0.5367936331892212
+    },
+    {
+      "task_id": 61,
+      "completed": false,
+      "tokens": 19519,
+      "time": 234.94326990284654,
+      "spatial_accuracy": 0.6281024611925311
+    },
+    {
+      "task_id": 62,
+      "completed": true,
+      "tokens": 17896,
+      "time": 246.86291876049555,
+      "spatial_accuracy": 0.47375305113081884
+    },
+    {
+      "task_id": 63,
+      "completed": true,
+      "tokens": 17760,
+      "time": 225.85425687467364,
+      "spatial_accuracy": 0.6642730373739528
+    },
+    {
+      "task_id": 64,
+      "completed": true,
+      "tokens": 18270,
+      "time": 247.48108591833687,
+      "spatial_accuracy": 0.613465404586694
+    },
+    {
+      "task_id": 65,
+      "completed": false,
+      "tokens": 18403,
+      "time": 268.20166216432426,
+      "spatial_accuracy": 0.6052845396944331
+    },
+    {
+      "task_id": 66,
+      "completed": true,
+      "tokens": 17675,
+      "time": 254.6161605364744,
+      "spatial_accuracy": 0.5622179046711494
+    },
+    {
+      "task_id": 67,
+      "completed": false,
+      "tokens": 17855,
+      "time": 262.80745650202334,
+      "spatial_accuracy": 0.5813641740424366
+    },
+    {
+      "task_id": 68,
+      "completed": false,
+      "tokens": 17868,
+      "time": 232.1361105173963,
+      "spatial_accuracy": 0.6364247169674
+    },
+    {
+      "task_id": 69,
+      "completed": true,
+      "tokens": 18120,
+      "time": 257.70596374065485,
+      "spatial_accuracy": 0.5812760928723245
+    },
+    {
+      "task_id": 70,
+      "completed": true,
+      "tokens": 18461,
+      "time": 249.86606721493138,
+      "spatial_accuracy": 0.592239597454131
+    },
+    {
+      "task_id": 71,
+      "completed": false,
+      "tokens": 17588,
+      "time": 220.4529107255781,
+      "spatial_accuracy": 0.7001969796737988
+    },
+    {
+      "task_id": 72,
+      "completed": true,
+      "tokens": 17663,
+      "time": 270.45882678858,
+      "spatial_accuracy": 0.6919631273859318
+    },
+    {
+      "task_id": 73,
+      "completed": true,
+      "tokens": 18647,
+      "time": 245.02560320263606,
+      "spatial_accuracy": 0.5704157730632108
+    },
+    {
+      "task_id": 74,
+      "completed": true,
+      "tokens": 18420,
+      "time": 206.26503709137177,
+      "spatial_accuracy": 0.6296040532387954
+    },
+    {
+      "task_id": 75,
+      "completed": false,
+      "tokens": 18657,
+      "time": 277.7902802827416,
+      "spatial_accuracy": 0.615370404482261
+    },
+    {
+      "task_id": 76,
+      "completed": false,
+      "tokens": 18583,
+      "time": 271.7998635077204,
+      "spatial_accuracy": 0.622117302384425
+    },
+    {
+      "task_id": 77,
+      "completed": true,
+      "tokens": 18874,
+      "time": 219.9453423327094,
+      "spatial_accuracy": 0.6359991877618009
+    },
+    {
+      "task_id": 78,
+      "completed": false,
+      "tokens": 18362,
+      "time": 242.56790168473043,
+      "spatial_accuracy": 0.512073603787746
+    },
+    {
+      "task_id": 79,
+      "completed": true,
+      "tokens": 18244,
+      "time": 255.70500388678403,
+      "spatial_accuracy": 0.5915027502084246
+    },
+    {
+      "task_id": 80,
+      "completed": true,
+      "tokens": 18107,
+      "time": 241.6568040624342,
+      "spatial_accuracy": 0.5531034914320585
+    },
+    {
+      "task_id": 81,
+      "completed": true,
+      "tokens": 18401,
+      "time": 265.43415328412556,
+      "spatial_accuracy": 0.6811170548731255
+    },
+    {
+      "task_id": 82,
+      "completed": true,
+      "tokens": 18718,
+      "time": 241.77281710384565,
+      "spatial_accuracy": 0.5319369982665672
+    },
+    {
+      "task_id": 83,
+      "completed": true,
+      "tokens": 19169,
+      "time": 260.8354915149244,
+      "spatial_accuracy": 0.5930065259217863
+    },
+    {
+      "task_id": 84,
+      "completed": false,
+      "tokens": 18722,
+      "time": 201.89398235605734,
+      "spatial_accuracy": 0.5725238842366993
+    },
+    {
+      "task_id": 85,
+      "completed": true,
+      "tokens": 18540,
+      "time": 274.5260284133196,
+      "spatial_accuracy": 0.6225578748437485
+    },
+    {
+      "task_id": 86,
+      "completed": false,
+      "tokens": 18947,
+      "time": 266.0031908336248,
+      "spatial_accuracy": 0.6500911015908166
+    },
+    {
+      "task_id": 87,
+      "completed": true,
+      "tokens": 18387,
+      "time": 241.81106033392916,
+      "spatial_accuracy": 0.6189711594309465
+    },
+    {
+      "task_id": 88,
+      "completed": false,
+      "tokens": 19192,
+      "time": 257.09549135114696,
+      "spatial_accuracy": 0.6847718578873057
+    },
+    {
+      "task_id": 89,
+      "completed": true,
+      "tokens": 19220,
+      "time": 243.0418326313334,
+      "spatial_accuracy": 0.6135935124285689
+    },
+    {
+      "task_id": 90,
+      "completed": true,
+      "tokens": 17703,
+      "time": 247.40902484074792,
+      "spatial_accuracy": 0.5981793162655525
+    },
+    {
+      "task_id": 91,
+      "completed": false,
+      "tokens": 18907,
+      "time": 244.1085292299608,
+      "spatial_accuracy": 0.6415695819339587
+    },
+    {
+      "task_id": 92,
+      "completed": true,
+      "tokens": 17828,
+      "time": 253.71893631212842,
+      "spatial_accuracy": 0.6452028021294423
+    },
+    {
+      "task_id": 93,
+      "completed": false,
+      "tokens": 17747,
+      "time": 247.53815891594945,
+      "spatial_accuracy": 0.6995585642003613
+    },
+    {
+      "task_id": 94,
+      "completed": true,
+      "tokens": 18493,
+      "time": 250.76770522299412,
+      "spatial_accuracy": 0.5677262814602102
+    },
+    {
+      "task_id": 95,
+      "completed": false,
+      "tokens": 18297,
+      "time": 250.92555218165205,
+      "spatial_accuracy": 0.6000853731605594
+    },
+    {
+      "task_id": 96,
+      "completed": true,
+      "tokens": 18500,
+      "time": 242.63140258728427,
+      "spatial_accuracy": 0.630683562944421
+    },
+    {
+      "task_id": 97,
+      "completed": false,
+      "tokens": 19170,
+      "time": 262.09114918925985,
+      "spatial_accuracy": 0.6758762542756565
+    },
+    {
+      "task_id": 98,
+      "completed": true,
+      "tokens": 18203,
+      "time": 247.29353121670897,
+      "spatial_accuracy": 0.5423479774293875
+    },
+    {
+      "task_id": 99,
+      "completed": true,
+      "tokens": 17865,
+      "time": 246.95693500691002,
+      "spatial_accuracy": 0.6784219478305237
+    },
+    {
+      "task_id": 100,
+      "completed": false,
+      "tokens": 17766,
+      "time": 218.17470492095669,
+      "spatial_accuracy": 0.5890844855104501
+    },
+    {
+      "task_id": 101,
+      "completed": false,
+      "tokens": 17902,
+      "time": 264.8680055106201,
+      "spatial_accuracy": 0.5387176829464076
+    },
+    {
+      "task_id": 102,
+      "completed": true,
+      "tokens": 18828,
+      "time": 191.59531065496463,
+      "spatial_accuracy": 0.6058380160328055
+    },
+    {
+      "task_id": 103,
+      "completed": false,
+      "tokens": 19375,
+      "time": 243.500120322006,
+      "spatial_accuracy": 0.6265424522298658
+    },
+    {
+      "task_id": 104,
+      "completed": false,
+      "tokens": 17713,
+      "time": 228.72963862105033,
+      "spatial_accuracy": 0.6163664020969795
+    },
+    {
+      "task_id": 105,
+      "completed": true,
+      "tokens": 18781,
+      "time": 259.1860540815331,
+      "spatial_accuracy": 0.6041187812921368
+    },
+    {
+      "task_id": 106,
+      "completed": true,
+      "tokens": 17414,
+      "time": 251.18270213270375,
+      "spatial_accuracy": 0.5401564636652904
+    },
+    {
+      "task_id": 107,
+      "completed": false,
+      "tokens": 19012,
+      "time": 230.64257237783812,
+      "spatial_accuracy": 0.549396203971093
+    },
+    {
+      "task_id": 108,
+      "completed": true,
+      "tokens": 18560,
+      "time": 224.94594295371854,
+      "spatial_accuracy": 0.5373178857161298
+    },
+    {
+      "task_id": 109,
+      "completed": true,
+      "tokens": 19162,
+      "time": 233.17407795927156,
+      "spatial_accuracy": 0.6511628816918975
+    },
+    {
+      "task_id": 110,
+      "completed": false,
+      "tokens": 19418,
+      "time": 269.2923253839059,
+      "spatial_accuracy": 0.5454543642341338
+    },
+    {
+      "task_id": 111,
+      "completed": true,
+      "tokens": 19042,
+      "time": 259.02171039152347,
+      "spatial_accuracy": 0.6752309061611156
+    },
+    {
+      "task_id": 112,
+      "completed": true,
+      "tokens": 18307,
+      "time": 254.12888897565202,
+      "spatial_accuracy": 0.5042940048393622
+    },
+    {
+      "task_id": 113,
+      "completed": false,
+      "tokens": 17961,
+      "time": 251.9123834549191,
+      "spatial_accuracy": 0.6043591906464627
+    },
+    {
+      "task_id": 114,
+      "completed": true,
+      "tokens": 18837,
+      "time": 230.38899152892512,
+      "spatial_accuracy": 0.6281380217003083
+    },
+    {
+      "task_id": 115,
+      "completed": true,
+      "tokens": 19255,
+      "time": 284.31406737398027,
+      "spatial_accuracy": 0.6138261307690075
+    },
+    {
+      "task_id": 116,
+      "completed": false,
+      "tokens": 19487,
+      "time": 226.78622846160974,
+      "spatial_accuracy": 0.5053289995026513
+    },
+    {
+      "task_id": 117,
+      "completed": true,
+      "tokens": 18263,
+      "time": 249.704475050787,
+      "spatial_accuracy": 0.5773139145873594
+    },
+    {
+      "task_id": 118,
+      "completed": true,
+      "tokens": 17001,
+      "time": 262.5169474931637,
+      "spatial_accuracy": 0.5684438419753849
+    },
+    {
+      "task_id": 119,
+      "completed": true,
+      "tokens": 18689,
+      "time": 252.7784157439633,
+      "spatial_accuracy": 0.48760057172783267
+    },
+    {
+      "task_id": 120,
+      "completed": true,
+      "tokens": 18471,
+      "time": 240.63125183423392,
+      "spatial_accuracy": 0.6235919799449066
+    },
+    {
+      "task_id": 121,
+      "completed": true,
+      "tokens": 19109,
+      "time": 267.4032440930046,
+      "spatial_accuracy": 0.5493999667672548
+    },
+    {
+      "task_id": 122,
+      "completed": true,
+      "tokens": 17920,
+      "time": 230.17222563981238,
+      "spatial_accuracy": 0.588351440237301
+    },
+    {
+      "task_id": 123,
+      "completed": false,
+      "tokens": 18851,
+      "time": 231.64411143389873,
+      "spatial_accuracy": 0.650178680042672
+    },
+    {
+      "task_id": 124,
+      "completed": true,
+      "tokens": 18426,
+      "time": 246.07132166585956,
+      "spatial_accuracy": 0.5941599830532986
+    },
+    {
+      "task_id": 125,
+      "completed": true,
+      "tokens": 18834,
+      "time": 271.0232169495157,
+      "spatial_accuracy": 0.5782878203508913
+    },
+    {
+      "task_id": 126,
+      "completed": true,
+      "tokens": 18442,
+      "time": 241.46493621002028,
+      "spatial_accuracy": 0.6412307296608262
+    },
+    {
+      "task_id": 127,
+      "completed": false,
+      "tokens": 18327,
+      "time": 235.4240042376142,
+      "spatial_accuracy": 0.6808055817648984
+    },
+    {
+      "task_id": 128,
+      "completed": true,
+      "tokens": 18168,
+      "time": 213.314610417635,
+      "spatial_accuracy": 0.5323832499610445
+    },
+    {
+      "task_id": 129,
+      "completed": true,
+      "tokens": 18832,
+      "time": 259.51186768021864,
+      "spatial_accuracy": 0.6115075964756292
+    },
+    {
+      "task_id": 130,
+      "completed": true,
+      "tokens": 18712,
+      "time": 245.27428202366667,
+      "spatial_accuracy": 0.5310909182997273
+    },
+    {
+      "task_id": 131,
+      "completed": false,
+      "tokens": 18391,
+      "time": 257.8142634350336,
+      "spatial_accuracy": 0.6135970513915961
+    },
+    {
+      "task_id": 132,
+      "completed": true,
+      "tokens": 18334,
+      "time": 244.59847529494593,
+      "spatial_accuracy": 0.6520310661520945
+    },
+    {
+      "task_id": 133,
+      "completed": true,
+      "tokens": 18492,
+      "time": 253.63957694964608,
+      "spatial_accuracy": 0.6108460835150615
+    },
+    {
+      "task_id": 134,
+      "completed": true,
+      "tokens": 18928,
+      "time": 242.94998007983503,
+      "spatial_accuracy": 0.6935517045037729
+    },
+    {
+      "task_id": 135,
+      "completed": true,
+      "tokens": 18130,
+      "time": 240.48939947344826,
+      "spatial_accuracy": 0.4777582896494751
+    },
+    {
+      "task_id": 136,
+      "completed": true,
+      "tokens": 17918,
+      "time": 249.68920129830315,
+      "spatial_accuracy": 0.6251789675023093
+    },
+    {
+      "task_id": 137,
+      "completed": true,
+      "tokens": 17867,
+      "time": 240.7823423667851,
+      "spatial_accuracy": 0.7096845938041452
+    },
+    {
+      "task_id": 138,
+      "completed": true,
+      "tokens": 17106,
+      "time": 247.9633394952279,
+      "spatial_accuracy": 0.5821807431535131
+    },
+    {
+      "task_id": 139,
+      "completed": true,
+      "tokens": 18119,
+      "time": 214.31650920867065,
+      "spatial_accuracy": 0.6491842416149654
+    },
+    {
+      "task_id": 140,
+      "completed": true,
+      "tokens": 17721,
+      "time": 244.3978237369015,
+      "spatial_accuracy": 0.5419203782189076
+    },
+    {
+      "task_id": 141,
+      "completed": false,
+      "tokens": 18273,
+      "time": 260.007904045538,
+      "spatial_accuracy": 0.6397086075703724
+    },
+    {
+      "task_id": 142,
+      "completed": false,
+      "tokens": 18291,
+      "time": 269.4386265103044,
+      "spatial_accuracy": 0.6546046408534179
+    },
+    {
+      "task_id": 143,
+      "completed": false,
+      "tokens": 18401,
+      "time": 262.90081828565303,
+      "spatial_accuracy": 0.6460298221761082
+    },
+    {
+      "task_id": 144,
+      "completed": true,
+      "tokens": 18620,
+      "time": 270.35516690851796,
+      "spatial_accuracy": 0.6189812894007422
+    },
+    {
+      "task_id": 145,
+      "completed": false,
+      "tokens": 18218,
+      "time": 261.1655445444946,
+      "spatial_accuracy": 0.4880680509461615
+    },
+    {
+      "task_id": 146,
+      "completed": true,
+      "tokens": 18677,
+      "time": 234.79130217997178,
+      "spatial_accuracy": 0.5543181411203446
+    },
+    {
+      "task_id": 147,
+      "completed": false,
+      "tokens": 18767,
+      "time": 238.04701232590097,
+      "spatial_accuracy": 0.5308292415346603
+    },
+    {
+      "task_id": 148,
+      "completed": true,
+      "tokens": 17969,
+      "time": 236.5116081097024,
+      "spatial_accuracy": 0.6283142801093804
+    },
+    {
+      "task_id": 149,
+      "completed": false,
+      "tokens": 17473,
+      "time": 237.74197422295995,
+      "spatial_accuracy": 0.5628180332640343
+    },
+    {
+      "task_id": 150,
+      "completed": true,
+      "tokens": 18385,
+      "time": 226.05184935899533,
+      "spatial_accuracy": 0.5880599238796235
+    }
+  ],
+  "tcr": 0.54,
+  "tokens": 18357.18,
+  "time": 37190.62242988282,
+  "saa": 0.5942678746254066
+}

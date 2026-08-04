@@ -1,0 +1,15 @@
+pilot:
+  source: tasks/core150
+  output: tasks/pilot20
+  per_category: 2
+  seed: 42
+
+audit:
+  output: reports/task_audit
+  require_zero_errors: true
+
+experiment:
+  repeats: 3
+  temperature: 0.0
+  max_tokens: 4096
+  timeout_seconds: 120

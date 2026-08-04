@@ -1,0 +1,60 @@
+experiment:
+  name: mmgis_paper_unique35
+  tasks: tasks/contextgeo_unique35
+  output_root: outputs/experiments
+  repeats: 3
+  cache: false
+  resume: true
+  run_id: paper_unique35_v1
+
+models:
+  gpt_oss20b_free:
+    enabled: false
+    provider: openrouter
+    model: openai/gpt-oss-20b:free
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+    reasoning:
+      effort: low
+      exclude: true
+
+  gemma4_26b_free:
+    enabled: false
+    provider: openrouter
+    model: google/gemma-4-26b-a4b-it:free
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+
+  gpt5_mini:
+    enabled: true
+    provider: openrouter
+    model: openai/gpt-5-mini
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+    reasoning:
+      effort: low
+      exclude: true
+
+  gemini25_flash:
+    enabled: false
+    provider: openrouter
+    model: google/gemini-2.5-flash
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+    reasoning:
+      effort: low
+      exclude: true
+
+  qwen3_coder:
+    enabled: false
+    provider: openrouter
+    model: qwen/qwen3-coder
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4
+
+  claude_sonnet4:
+    enabled: false
+    provider: openrouter
+    model: anthropic/claude-sonnet-4
+    base_url: https://openrouter.ai/api/v1
+    max_attempts: 4

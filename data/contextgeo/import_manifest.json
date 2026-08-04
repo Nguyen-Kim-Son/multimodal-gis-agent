@@ -1,0 +1,24 @@
+{
+  "source": "data/contextgeo/tasks_150.json",
+  "output": "tasks/contextgeo150",
+  "num_tasks": 150,
+  "difficulty": {
+    "easy": 50,
+    "medium": 60,
+    "hard": 40
+  },
+  "category": {
+    "spatial_query": 50,
+    "spatial_analysis": 40,
+    "raster_analysis": 20,
+    "data_integration": 20,
+    "spatial_reasoning": 20
+  },
+  "dataset": {
+    "osm": 45,
+    "census": 45,
+    "sentinel2": 20,
+    "multi": 40
+  },
+  "ground_truth_type": "expected_operations"
+}

@@ -1,0 +1,13 @@
+{
+  "text": "FAO/GAUL/2015/level2",
+  "model": "deterministic-mock",
+  "provider": "mock",
+  "latency_seconds": 1.89200000022538e-06,
+  "prompt_tokens": 17,
+  "completion_tokens": 1,
+  "total_tokens": 18,
+  "cost_usd": null,
+  "raw": {
+    "mock": true
+  }
+}

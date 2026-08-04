@@ -1,0 +1,41 @@
+experiment:
+  name: pilot_baseline_comparison
+  tasks: tasks/pilot20
+  output_root: outputs/experiments
+  repeats: 3
+  cache: false
+  resume: true
+  # Optional stable ID for resumable long experiments:
+  # run_id: reviewed_pilot_v1
+
+models:
+  mock:
+    enabled: true
+    provider: mock
+    model: deterministic-mock
+
+  qwen_ollama:
+    enabled: false
+    provider: ollama
+    model: qwen2.5-coder:7b
+    base_url: http://localhost:11434
+
+  openrouter_free:
+    enabled: false
+    provider: openrouter
+    model: openai/gpt-oss-20b:free
+    base_url: https://openrouter.ai/api/v1
+
+  deepseek:
+    enabled: false
+    provider: deepseek
+    model: deepseek-chat
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+
+  qwen_api:
+    enabled: false
+    provider: qwen
+    model: qwen-plus
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    api_key_env: DASHSCOPE_API_KEY
