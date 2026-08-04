@@ -1,0 +1,43 @@
+metadata:
+  id: MMGIS-0005
+  name: Hanoi District Spatial Reasoning
+  version: 0.2.0
+  benchmark: MMGIS-Bench
+  split: test
+  category: spatial_reasoning
+  difficulty: hard
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Describe the workflow for identifying the largest district.
+  tags:
+  - gaul
+  - district
+  - reasoning
+datasets:
+- id: gaul2
+  name: GAUL Level 2
+  provider: fao
+  asset: FAO/GAUL/2015/level2
+input:
+  modality: text
+  platform: gee
+  dataset: FAO/GAUL/2015/level2
+  prompt: Explain a reproducible GEE workflow using FAO/GAUL/2015/level2 to identify
+    the Hanoi district with the largest administrative area.
+output:
+  output_type: text
+  answer: Filter Hanoi districts, calculate geometry area for each feature, sort descending,
+    and select the first feature.
+  required_keywords:
+  - FAO/GAUL/2015/level2
+  - area
+  - sort
+  - descending
+evaluation:
+  metrics:
+  - keyword_coverage
+  reasoning_level: spatial
+  pass_score: 0.75
+runtime:
+  timeout: 120
+  max_tokens: 2048

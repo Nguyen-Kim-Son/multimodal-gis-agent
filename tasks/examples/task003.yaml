@@ -1,0 +1,47 @@
+metadata:
+  id: MMGIS-0003
+  name: MODIS NDVI Temporal Analysis
+  version: 0.2.0
+  benchmark: MMGIS-Bench
+  split: test
+  category: temporal
+  difficulty: medium
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Generate a monthly NDVI workflow.
+  tags:
+  - modis
+  - ndvi
+  - temporal
+datasets:
+- id: modis_ndvi
+  name: MODIS NDVI
+  provider: nasa
+  asset: MODIS/061/MOD13Q1
+  resolution: 250
+  bands:
+  - NDVI
+input:
+  modality: text
+  platform: gee
+  dataset: MODIS/061/MOD13Q1
+  prompt: Generate GEE code to compute a monthly NDVI time series for Hanoi in 2024
+    using MODIS/061/MOD13Q1.
+  start_date: '2024-01-01'
+  end_date: '2024-12-31'
+output:
+  output_type: code
+  code: // Monthly NDVI workflow
+  required_keywords:
+  - MODIS/061/MOD13Q1
+  - NDVI
+  - '2024'
+evaluation:
+  metrics:
+  - code_presence
+  - keyword_coverage
+  reasoning_level: temporal
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 3072

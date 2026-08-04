@@ -1,0 +1,39 @@
+metadata:
+  id: MMGIS-0001
+  name: Landsat Dataset Discovery
+  version: 0.2.0
+  benchmark: MMGIS-Bench
+  split: test
+  category: discovery
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Identify the Landsat 8 Collection 2 Level 2 asset.
+  tags:
+  - landsat
+  - discovery
+datasets:
+- id: landsat8
+  name: Landsat 8
+  provider: usgs
+  asset: LANDSAT/LC08/C02/T1_L2
+  resolution: 30
+input:
+  modality: text
+  platform: gee
+  dataset: LANDSAT/LC08/C02/T1_L2
+  prompt: Return the Google Earth Engine asset identifier LANDSAT/LC08/C02/T1_L2.
+output:
+  output_type: text
+  answer: LANDSAT/LC08/C02/T1_L2
+  required_keywords:
+  - LANDSAT/LC08/C02/T1_L2
+evaluation:
+  metrics:
+  - exact_match
+  - keyword_coverage
+  reasoning_level: retrieval
+  pass_score: 0.5
+runtime:
+  timeout: 60
+  max_tokens: 512

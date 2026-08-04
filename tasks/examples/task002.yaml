@@ -1,0 +1,42 @@
+metadata:
+  id: MMGIS-0002
+  name: Sentinel-2 Filter Code
+  version: 0.2.0
+  benchmark: MMGIS-Bench
+  split: test
+  category: filtering
+  difficulty: medium
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Generate a Sentinel-2 spatial and temporal filter.
+  tags:
+  - sentinel2
+  - filtering
+datasets:
+- id: sentinel2
+  name: Sentinel-2 SR Harmonized
+  provider: esa
+  asset: COPERNICUS/S2_SR_HARMONIZED
+  resolution: 10
+input:
+  modality: text
+  platform: gee
+  dataset: COPERNICUS/S2_SR_HARMONIZED
+  prompt: Generate Google Earth Engine JavaScript code using COPERNICUS/S2_SR_HARMONIZED
+    and filter it over Hanoi during 2023.
+output:
+  output_type: code
+  code: var images = ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED');
+  required_keywords:
+  - COPERNICUS/S2_SR_HARMONIZED
+  - filterDate
+  - filterBounds
+evaluation:
+  metrics:
+  - code_presence
+  - keyword_coverage
+  reasoning_level: filtering
+  pass_score: 0.5
+runtime:
+  timeout: 90
+  max_tokens: 2048

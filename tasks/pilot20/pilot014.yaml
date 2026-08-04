@@ -1,0 +1,52 @@
+metadata:
+  id: MMGIS-0006
+  name: Spatial Reasoning 006
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: spatial_reasoning
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - spatial_reasoning
+  - landsat8
+  - easy
+datasets:
+- id: landsat8
+  name: Landsat 8
+  provider: usgs
+  asset: LANDSAT/LC08/C02/T1_L2
+  resolution: 30.0
+  bands: []
+input:
+  modality: text
+  platform: gee
+  dataset: LANDSAT/LC08/C02/T1_L2
+  prompt: Explain a spatial reasoning workflow using Landsat 8 and Hanoi districts.
+output:
+  output_type: text
+  answer: LANDSAT/LC08/C02/T1_L2
+  table: []
+  structured_output: {}
+  required_keywords:
+  - LANDSAT/LC08/C02/T1_L2
+  - Hanoi
+  numeric_tolerance: 0.0
+evaluation:
+  metrics:
+  - keyword_coverage
+  reasoning_level: spatial
+  pass_score: 0.5
+  weight: 1.0
+runtime:
+  timeout: 120
+  internet: true
+  gpu: false
+  api_required: true
+  memory_gb: 4.0
+  max_tokens: 4096
+  temperature: 0.0
+  retries: 1
+  cache: true

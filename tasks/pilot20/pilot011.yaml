@@ -1,0 +1,52 @@
+metadata:
+  id: MMGIS-0010
+  name: Planning 010
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: planning
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - planning
+  - srtm
+  - easy
+datasets:
+- id: srtm
+  name: SRTM DEM
+  provider: usgs
+  asset: USGS/SRTMGL1_003
+  resolution: 30.0
+  bands: []
+input:
+  modality: text
+  platform: gee
+  dataset: USGS/SRTMGL1_003
+  prompt: Create a multi-step GIS analysis plan using SRTM DEM.
+output:
+  output_type: text
+  answer: USGS/SRTMGL1_003
+  table: []
+  structured_output: {}
+  required_keywords:
+  - USGS/SRTMGL1_003
+  - Hanoi
+  numeric_tolerance: 0.0
+evaluation:
+  metrics:
+  - keyword_coverage
+  reasoning_level: planning
+  pass_score: 0.5
+  weight: 1.0
+runtime:
+  timeout: 120
+  internet: true
+  gpu: false
+  api_required: true
+  memory_gb: 4.0
+  max_tokens: 4096
+  temperature: 0.0
+  retries: 1
+  cache: true

@@ -1,0 +1,70 @@
+metadata:
+  id: CONTEXTGEO-INTERMEDIATE-025
+  name: Compare population density between census tracts in Phoenix and identify top
+    5 highest density areas.
+  version: 1.0.0
+  benchmark: MMGIS-Bench-ContextGeo150
+  split: test
+  category: spatial_analysis
+  difficulty: medium
+  author: Nguyen Kim Son
+  created: '2026-08-02'
+  description: Manually designed ContextGeo task imported from data/tasks_150.json.
+    Ground truth is operation-level.
+  tags:
+  - contextgeo
+  - intermediate_025
+  - census
+  - spatial_analysis
+  - medium
+datasets:
+- id: census
+  name: United States Census / ACS
+  provider: us_census
+  asset: census
+  citation: United States Census Bureau
+input:
+  modality: text
+  platform: general_gis
+  dataset: census
+  prompt: Compare population density between census tracts in Phoenix and identify
+    top 5 highest density areas.
+  system_prompt: You are evaluating a geospatial analysis task. Return a concrete
+    and reproducible workflow with clear ordered steps, assumptions, intermediate
+    outputs, and validation checks. Do not fabricate final numeric values when the
+    source data have not actually been executed.
+output:
+  output_type: workflow
+  expected_operations: &id001
+  - load_census
+  - calculate_density
+  - sort
+  - filter
+  structured_output:
+    source_task_id: intermediate_025
+    source_dataset: census
+    source_type: spatial_analysis
+    expected_operations: *id001
+  reference_notes: The attached ContextGeo source defines expected GIS operations,
+    not a universal exact numeric answer. Evaluation therefore uses operation coverage
+    and workflow ordering.
+evaluation:
+  metrics:
+  - operation_precision
+  - operation_recall
+  - operation_f1
+  - workflow_order
+  - hallucinated_operation_rate
+  reasoning_level: spatial
+  pass_score: 0.6
+  weight: 1.0
+runtime:
+  timeout: 300
+  internet: true
+  gpu: false
+  api_required: true
+  memory_gb: 4.0
+  max_tokens: 4096
+  temperature: 0.0
+  retries: 1
+  cache: false
