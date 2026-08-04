@@ -1,0 +1,67 @@
+metadata:
+  id: CONTEXTGEO-SIMPLE-046
+  name: What is the total population in New York?
+  version: 1.0.0
+  benchmark: MMGIS-Bench-ContextGeo150
+  split: test
+  category: spatial_query
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-02'
+  description: Manually designed ContextGeo task imported from data/tasks_150.json.
+    Ground truth is operation-level.
+  tags:
+  - contextgeo
+  - simple_046
+  - census
+  - spatial_query
+  - easy
+datasets:
+- id: census
+  name: United States Census / ACS
+  provider: us_census
+  asset: census
+  citation: United States Census Bureau
+input:
+  modality: text
+  platform: general_gis
+  dataset: census
+  prompt: What is the total population in New York?
+  system_prompt: You are evaluating a geospatial analysis task. Return a concrete
+    and reproducible workflow with clear ordered steps, assumptions, intermediate
+    outputs, and validation checks. Do not fabricate final numeric values when the
+    source data have not actually been executed.
+output:
+  output_type: workflow
+  expected_operations: &id001
+  - load_census
+  - aggregate
+  - calculate
+  structured_output:
+    source_task_id: simple_046
+    source_dataset: census
+    source_type: spatial_query
+    expected_operations: *id001
+  reference_notes: The attached ContextGeo source defines expected GIS operations,
+    not a universal exact numeric answer. Evaluation therefore uses operation coverage
+    and workflow ordering.
+evaluation:
+  metrics:
+  - operation_precision
+  - operation_recall
+  - operation_f1
+  - workflow_order
+  - hallucinated_operation_rate
+  reasoning_level: retrieval
+  pass_score: 0.6
+  weight: 1.0
+runtime:
+  timeout: 300
+  internet: true
+  gpu: false
+  api_required: true
+  memory_gb: 4.0
+  max_tokens: 4096
+  temperature: 0.0
+  retries: 1
+  cache: false
