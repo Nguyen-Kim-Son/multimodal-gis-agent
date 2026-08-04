@@ -1,0 +1,42 @@
+metadata:
+  id: MMGIS-0063
+  name: Visualization 063
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: visualization
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - visualization
+  - modis_ndvi
+  - easy
+datasets:
+- id: modis_ndvi
+  name: MODIS NDVI
+  provider: nasa
+  asset: MODIS/061/MOD13Q1
+  resolution: 250
+input:
+  modality: text
+  platform: gee
+  dataset: MODIS/061/MOD13Q1
+  prompt: Generate GEE code to visualize MODIS NDVI over Hanoi.
+output:
+  output_type: code
+  required_keywords:
+  - MODIS/061/MOD13Q1
+  - Hanoi
+  code: // Ground-truth template must use MODIS/061/MOD13Q1
+evaluation:
+  metrics:
+  - code_presence
+  - keyword_coverage
+  reasoning_level: analysis
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 4096
+  temperature: 0.0

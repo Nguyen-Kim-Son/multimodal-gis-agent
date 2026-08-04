@@ -1,0 +1,42 @@
+metadata:
+  id: MMGIS-0108
+  name: Change Detection 108
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: change_detection
+  difficulty: medium
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - change_detection
+  - modis_ndvi
+  - medium
+datasets:
+- id: modis_ndvi
+  name: MODIS NDVI
+  provider: nasa
+  asset: MODIS/061/MOD13Q1
+  resolution: 250
+input:
+  modality: text
+  platform: gee
+  dataset: MODIS/061/MOD13Q1
+  prompt: Generate a change-detection workflow using MODIS NDVI.
+output:
+  output_type: code
+  required_keywords:
+  - MODIS/061/MOD13Q1
+  - Hanoi
+  code: // Ground-truth template must use MODIS/061/MOD13Q1
+evaluation:
+  metrics:
+  - code_presence
+  - keyword_coverage
+  reasoning_level: temporal
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 4096
+  temperature: 0.0

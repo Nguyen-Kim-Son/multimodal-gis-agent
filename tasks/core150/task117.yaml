@@ -1,0 +1,42 @@
+metadata:
+  id: MMGIS-0117
+  name: Temporal 117
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: temporal
+  difficulty: hard
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - temporal
+  - sentinel2
+  - hard
+datasets:
+- id: sentinel2
+  name: Sentinel-2 SR
+  provider: esa
+  asset: COPERNICUS/S2_SR_HARMONIZED
+  resolution: 10
+input:
+  modality: text
+  platform: gee
+  dataset: COPERNICUS/S2_SR_HARMONIZED
+  prompt: Generate a temporal analysis workflow for Sentinel-2 SR from 2020 to 2024.
+output:
+  output_type: code
+  required_keywords:
+  - COPERNICUS/S2_SR_HARMONIZED
+  - Hanoi
+  code: // Ground-truth template must use COPERNICUS/S2_SR_HARMONIZED
+evaluation:
+  metrics:
+  - code_presence
+  - keyword_coverage
+  reasoning_level: temporal
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 4096
+  temperature: 0.0

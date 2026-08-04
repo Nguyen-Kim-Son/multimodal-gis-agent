@@ -1,0 +1,42 @@
+metadata:
+  id: MMGIS-0114
+  name: Statistics 114
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: statistics
+  difficulty: hard
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - statistics
+  - gaul2
+  - hard
+datasets:
+- id: gaul2
+  name: GAUL Level 2
+  provider: fao
+  asset: FAO/GAUL/2015/level2
+  resolution: null
+input:
+  modality: text
+  platform: gee
+  dataset: FAO/GAUL/2015/level2
+  prompt: Generate a workflow to compute a regional statistic from GAUL Level 2 over
+    Hanoi.
+output:
+  output_type: text
+  required_keywords:
+  - FAO/GAUL/2015/level2
+  - Hanoi
+  answer: FAO/GAUL/2015/level2
+evaluation:
+  metrics:
+  - keyword_coverage
+  reasoning_level: analysis
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 4096
+  temperature: 0.0
