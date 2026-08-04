@@ -1,0 +1,21 @@
+{
+  "release": "1.0.0",
+  "main_task_set": "tasks/contextgeo_unique35",
+  "main_task_count": 35,
+  "main_repeats": 3,
+  "main_models": [
+    "openai/gpt-oss-20b:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "openai/gpt-5-mini",
+    "google/gemini-2.5-flash",
+    "qwen/qwen3-coder"
+  ],
+  "optional_model": "anthropic/claude-sonnet-4",
+  "metrics": [
+    "operation_precision",
+    "operation_recall",
+    "operation_f1",
+    "workflow_order",
+    "hallucinated_operation_rate"
+  ]
+}

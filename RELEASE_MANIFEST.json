@@ -1,0 +1,13 @@
+{
+  "release": "1.0.0",
+  "repository": "https://github.com/Nguyen-Kim-Son/multimodal-gis-agent",
+  "primary_task_set": "tasks/contextgeo_unique35",
+  "primary_task_count": 35,
+  "robustness_task_set": "tasks/contextgeo150",
+  "robustness_instance_count": 150,
+  "source_task_specification": "data/contextgeo/tasks_150.json",
+  "ground_truth_type": "expected_operations",
+  "generated_outputs_included": false,
+  "secrets_included": false,
+  "license": "Apache-2.0"
+}

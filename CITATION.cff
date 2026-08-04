@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use MMGIS-Bench or MultiModal-GISAgent in your research, please cite this software and the associated paper."
+title: "MMGIS-Bench: Reproducible Evaluation for Multimodal GIS Agents"
+type: software
+authors:
+  - family-names: Nguyen
+    given-names: Kim Son
+    email: nkson@ictu.edu.vn
+  - family-names: Nguyen
+    given-names: The Vinh
+version: 1.0.0
+date-released: 2026-08-04
+repository-code: "https://github.com/Nguyen-Kim-Son/multimodal-gis-agent"
+license: Apache-2.0
+keywords:
+  - GIS
+  - geospatial artificial intelligence
+  - large language models
+  - Google Earth Engine
+  - benchmark
+  - multimodal agents
