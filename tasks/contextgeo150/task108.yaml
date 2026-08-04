@@ -1,0 +1,69 @@
+metadata:
+  id: CONTEXTGEO-INTERMEDIATE-058
+  name: Calculate NDVI for Europe region and identify areas with NDVI > 0.6.
+  version: 1.0.0
+  benchmark: MMGIS-Bench-ContextGeo150
+  split: test
+  category: raster_analysis
+  difficulty: medium
+  author: Nguyen Kim Son
+  created: '2026-08-02'
+  description: Manually designed ContextGeo task imported from data/tasks_150.json.
+    Ground truth is operation-level.
+  tags:
+  - contextgeo
+  - intermediate_058
+  - sentinel2
+  - raster_analysis
+  - medium
+datasets:
+- id: sentinel2
+  name: Sentinel-2 imagery
+  provider: esa
+  asset: sentinel2
+  resolution: 10
+  citation: European Space Agency Copernicus programme
+input:
+  modality: text
+  platform: general_gis
+  dataset: sentinel2
+  prompt: Calculate NDVI for Europe region and identify areas with NDVI > 0.6.
+  system_prompt: You are evaluating a geospatial analysis task. Return a concrete
+    and reproducible workflow with clear ordered steps, assumptions, intermediate
+    outputs, and validation checks. Do not fabricate final numeric values when the
+    source data have not actually been executed.
+output:
+  output_type: workflow
+  expected_operations: &id001
+  - load_sentinel
+  - calculate_ndvi
+  - threshold
+  - extract
+  structured_output:
+    source_task_id: intermediate_058
+    source_dataset: sentinel2
+    source_type: raster_analysis
+    expected_operations: *id001
+  reference_notes: The attached ContextGeo source defines expected GIS operations,
+    not a universal exact numeric answer. Evaluation therefore uses operation coverage
+    and workflow ordering.
+evaluation:
+  metrics:
+  - operation_precision
+  - operation_recall
+  - operation_f1
+  - workflow_order
+  - hallucinated_operation_rate
+  reasoning_level: analysis
+  pass_score: 0.6
+  weight: 1.0
+runtime:
+  timeout: 300
+  internet: true
+  gpu: false
+  api_required: true
+  memory_gb: 4.0
+  max_tokens: 4096
+  temperature: 0.0
+  retries: 1
+  cache: false

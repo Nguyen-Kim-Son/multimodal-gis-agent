@@ -1,0 +1,84 @@
+metadata:
+  id: CONTEXTGEO-COMPLEX-028
+  name: Analyze urban heat island effect in Chicago by correlating Sentinel-2 temperature
+    data with population density and vegetation coverage.
+  version: 1.0.0
+  benchmark: MMGIS-Bench-ContextGeo150
+  split: test
+  category: spatial_reasoning
+  difficulty: hard
+  author: Nguyen Kim Son
+  created: '2026-08-02'
+  description: Manually designed ContextGeo task imported from data/tasks_150.json.
+    Ground truth is operation-level.
+  tags:
+  - contextgeo
+  - complex_028
+  - multi
+  - spatial_reasoning
+  - hard
+datasets:
+- id: multi
+  name: ContextGeo multi-source bundle
+  provider: multi_source
+  asset: multi
+  citation: OSM + US Census/ACS + Sentinel-2
+- id: osm
+  name: OpenStreetMap
+  provider: osm
+  asset: osm
+- id: census
+  name: United States Census / ACS
+  provider: us_census
+  asset: census
+- id: sentinel2
+  name: Sentinel-2 imagery
+  provider: esa
+  asset: sentinel2
+  resolution: 10
+input:
+  modality: text
+  platform: general_gis
+  dataset: multi
+  prompt: Analyze urban heat island effect in Chicago by correlating Sentinel-2 temperature
+    data with population density and vegetation coverage.
+  system_prompt: You are evaluating a geospatial analysis task. Return a concrete
+    and reproducible workflow with clear ordered steps, assumptions, intermediate
+    outputs, and validation checks. Do not fabricate final numeric values when the
+    source data have not actually been executed.
+output:
+  output_type: workflow
+  expected_operations: &id001
+  - load_multiple
+  - temporal_analysis
+  - correlation
+  - regression
+  - visualization
+  structured_output:
+    source_task_id: complex_028
+    source_dataset: multi
+    source_type: spatial_reasoning
+    expected_operations: *id001
+  reference_notes: The attached ContextGeo source defines expected GIS operations,
+    not a universal exact numeric answer. Evaluation therefore uses operation coverage
+    and workflow ordering.
+evaluation:
+  metrics:
+  - operation_precision
+  - operation_recall
+  - operation_f1
+  - workflow_order
+  - hallucinated_operation_rate
+  reasoning_level: multi_step
+  pass_score: 0.6
+  weight: 1.0
+runtime:
+  timeout: 300
+  internet: true
+  gpu: false
+  api_required: true
+  memory_gb: 4.0
+  max_tokens: 4096
+  temperature: 0.0
+  retries: 1
+  cache: false
