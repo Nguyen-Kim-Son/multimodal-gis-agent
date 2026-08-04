@@ -1,0 +1,42 @@
+metadata:
+  id: MMGIS-0035
+  name: Code Generation 035
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: code_generation
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - code_generation
+  - srtm
+  - easy
+datasets:
+- id: srtm
+  name: SRTM DEM
+  provider: usgs
+  asset: USGS/SRTMGL1_003
+  resolution: 30
+input:
+  modality: text
+  platform: gee
+  dataset: USGS/SRTMGL1_003
+  prompt: Generate executable GEE JavaScript code using USGS/SRTMGL1_003.
+output:
+  output_type: code
+  required_keywords:
+  - USGS/SRTMGL1_003
+  - Hanoi
+  code: // Ground-truth template must use USGS/SRTMGL1_003
+evaluation:
+  metrics:
+  - code_presence
+  - keyword_coverage
+  reasoning_level: analysis
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 4096
+  temperature: 0.0

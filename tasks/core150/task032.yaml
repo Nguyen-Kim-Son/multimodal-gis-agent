@@ -1,0 +1,41 @@
+metadata:
+  id: MMGIS-0032
+  name: Filtering 032
+  version: 0.2.0-draft
+  benchmark: MMGIS-Bench-Core150-Draft
+  split: test
+  category: filtering
+  difficulty: easy
+  author: Nguyen Kim Son
+  created: '2026-08-01'
+  description: Automatically generated draft task; requires human audit.
+  tags:
+  - filtering
+  - sentinel2
+  - easy
+datasets:
+- id: sentinel2
+  name: Sentinel-2 SR
+  provider: esa
+  asset: COPERNICUS/S2_SR_HARMONIZED
+  resolution: 10
+input:
+  modality: text
+  platform: gee
+  dataset: COPERNICUS/S2_SR_HARMONIZED
+  prompt: Describe how to filter Sentinel-2 SR over Hanoi for 2024.
+output:
+  output_type: text
+  required_keywords:
+  - COPERNICUS/S2_SR_HARMONIZED
+  - Hanoi
+  answer: COPERNICUS/S2_SR_HARMONIZED
+evaluation:
+  metrics:
+  - keyword_coverage
+  reasoning_level: analysis
+  pass_score: 0.5
+runtime:
+  timeout: 120
+  max_tokens: 4096
+  temperature: 0.0
