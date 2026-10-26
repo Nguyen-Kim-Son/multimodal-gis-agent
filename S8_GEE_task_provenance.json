@@ -1,0 +1,119 @@
+{
+  "record_type": "GEE_TASK_PROVENANCE_V1",
+  "generated_utc": "2026-10-25T18:02:23Z",
+  "mode": "LIVE",
+  "ee_project": "virtual-cycling-502617-j8",
+  "query": {
+    "match_terms": [
+      "hanoi",
+      "ndvi"
+    ],
+    "task_ids": [],
+    "all": false
+  },
+  "local_raster": {
+    "path": "D:\\MMGIS-Bench-Data\\source_data\\Hanoi_NDVI_2023_10m_analytical.tif",
+    "bytes": 72617562,
+    "sha256": "cc9597b262569a1cd80a414619e3dd44681d12b09396de7c8b527571a5c8c25c"
+  },
+  "tasks": [
+    {
+      "task_id": "I4E337EKXEXBCOS66ZFAR57M",
+      "description": "HANOI_NDVI_2023_10M_ANALYTICAL_JOB",
+      "state": "COMPLETED",
+      "task_type": "EXPORT_IMAGE",
+      "creation_time": "2026-10-22T08:14:39Z",
+      "start_time": "2026-10-22T08:14:45Z",
+      "update_time": "2026-10-22T08:21:59Z",
+      "end_time": null,
+      "attempt": 1,
+      "destination_uris": [
+        "https://drive.google.com/#folders/1VgJCryV6LvzbceAJzlAn4r7Tnj450Ckw"
+      ],
+      "error_message": null,
+      "status_query_error": null,
+      "assets": []
+    },
+    {
+      "task_id": "QXTVP6VPFFI2X4JJNKR5BGTN",
+      "description": "HANOI_S2_2023_EXACT_SCENE_MANIFEST",
+      "state": "COMPLETED",
+      "task_type": "EXPORT_FEATURES",
+      "creation_time": "2026-10-21T03:05:22Z",
+      "start_time": "2026-10-21T03:05:23Z",
+      "update_time": "2026-10-21T03:05:26Z",
+      "end_time": null,
+      "attempt": 1,
+      "destination_uris": [
+        "https://drive.google.com/#folders/1457-D9FMtfVMGDDB4_XSHndos2eoH6bv"
+      ],
+      "error_message": null,
+      "status_query_error": null,
+      "assets": []
+    },
+    {
+      "task_id": "SAWYOQZX4RNM6WIRIIQLANKX",
+      "description": "HANOI_SENTINEL2_NDVI_2023_10M_ANALYTICAL",
+      "state": "COMPLETED",
+      "task_type": "EXPORT_IMAGE",
+      "creation_time": "2026-10-21T03:00:12Z",
+      "start_time": "2026-10-21T03:00:16Z",
+      "update_time": "2026-10-21T03:04:34Z",
+      "end_time": null,
+      "attempt": 1,
+      "destination_uris": [
+        "https://drive.google.com/#folders/1457-D9FMtfVMGDDB4_XSHndos2eoH6bv"
+      ],
+      "error_message": null,
+      "status_query_error": null,
+      "assets": []
+    },
+    {
+      "task_id": "ZPANE5J3F5D4DJ3FYVUCWTJE",
+      "description": "HANOI_SENTINEL2_2023_SCENE_MANIFEST",
+      "state": "COMPLETED",
+      "task_type": "EXPORT_FEATURES",
+      "creation_time": "2026-10-21T01:03:32Z",
+      "start_time": "2026-10-21T01:03:38Z",
+      "update_time": "2026-10-21T01:03:41Z",
+      "end_time": null,
+      "attempt": 1,
+      "destination_uris": [
+        "https://drive.google.com/#folders/1457-D9FMtfVMGDDB4_XSHndos2eoH6bv"
+      ],
+      "error_message": null,
+      "status_query_error": null,
+      "assets": []
+    },
+    {
+      "task_id": "PLRT56M22H7ELWQ6XZDNYZ55",
+      "description": "HANOI_SENTINEL2_NDVI_2023_10M_ANALYTICAL",
+      "state": "COMPLETED",
+      "task_type": "EXPORT_IMAGE",
+      "creation_time": "2026-10-20T16:30:43Z",
+      "start_time": "2026-10-20T16:30:47Z",
+      "update_time": "2026-10-20T16:39:18Z",
+      "end_time": null,
+      "attempt": 1,
+      "destination_uris": [
+        "https://drive.google.com/#folders/1457-D9FMtfVMGDDB4_XSHndos2eoH6bv"
+      ],
+      "error_message": null,
+      "status_query_error": null,
+      "assets": []
+    }
+  ],
+  "summary": {
+    "n_tasks": 5,
+    "states": {
+      "COMPLETED": 5
+    },
+    "n_visible_account_tasks": 5
+  },
+  "available_tasks_if_no_match": [],
+  "limitations": [
+    "The task list reflects tasks visible to the authenticated account at query time.",
+    "Absence of a task is not proof that no export occurred; it may have been deleted or created under another account.",
+    "Earth Engine does not expose an MD5 of an asset through this call; asset size and update time are recorded instead."
+  ]
+}
