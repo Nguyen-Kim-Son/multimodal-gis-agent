@@ -8,8 +8,9 @@ authors:
     email: nkson@ictu.edu.vn
   - family-names: Nguyen
     given-names: The Vinh
-version: 1.0.0
-date-released: 2026-08-04
+version: 1.2.0
+doi: "10.5281/zenodo.23904064"
+date-released: 2026-11-03
 repository-code: "https://github.com/Nguyen-Kim-Son/multimodal-gis-agent"
 license: Apache-2.0
 keywords:
