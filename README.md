@@ -7,7 +7,7 @@
 A reproducible benchmark and experiment toolkit for evaluating multimodal GIS agents, geospatial language models, spatial-reasoning workflows, and code-generating systems on Google Earth Engine–oriented tasks.
 
 **Repository:** <https://github.com/Nguyen-Kim-Son/multimodal-gis-agent>  
-**Archived revision release:** <https://doi.org/10.5281/zenodo.23654897> (v1.1.0)
+**Archived revision release:** <https://doi.org/10.5281/zenodo.23904064> (v1.2.0)
 
 This repository contains the benchmark code (the original S1 code artifact) together with the revision evidence archives **S2–S10** at the repository root. The revision archives document the additional analyses reported in the manuscript; they are not required for the basic benchmark smoke test.
 
